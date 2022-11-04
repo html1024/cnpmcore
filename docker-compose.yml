@@ -47,7 +47,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
-      MYSQL_DATABASE: 'cnpmcore_unittest'
+      # MYSQL_DATABASE: 'cnpmcore_unittest'
       MYSQL_USER: user
       MYSQL_PASSWORD: pass
     volumes:
@@ -64,7 +64,7 @@ services:
     image: phpmyadmin
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD:
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
       MYSQL_USER: user
       MYSQL_PASSWORD: pass
@@ -74,7 +74,7 @@ services:
     ports:
       - 80
     networks:
-      - cnpm      
+      - cnpm
 
 volumes:
   cnpm-redis:
