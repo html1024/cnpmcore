@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>4.35.3 (2026-09-03)</small>
+
+* fix(playwright): mirror WebKit for Ubuntu 26.04 (#1139) ([e6c63cd](https://github.com/cnpm/cnpmcore/commit/e6c63cd)), closes [#1139](https://github.com/cnpm/cnpmcore/issues/1139) [#1130](https://github.com/cnpm/cnpmcore/issues/1130)
+* chore(deps): update vite-plus related packages (#1129) ([61daf8f](https://github.com/cnpm/cnpmcore/commit/61daf8f)), closes [#1129](https://github.com/cnpm/cnpmcore/issues/1129)
+
 ## <small>4.35.2 (2026-08-20)</small>
 
 * fix: relay synced version removals (#1132) ([3ba20dc](https://github.com/cnpm/cnpmcore/commit/3ba20dc)), closes [#1132](https://github.com/cnpm/cnpmcore/issues/1132) [#1133](https://github.com/cnpm/cnpmcore/issues/1133)
